@@ -59,21 +59,3 @@ See [`docs/tiers.md`](docs/tiers.md) for more detail.
 
 ---
 
-## Repo Layout
-
-Suggested structure (you can adjust as you like):
-
-```text
-.
-├── firmware/
-│   ├── esp32_ph_only/          # Tier 0: simple pH-only controller
-│   └── esp32_full/             # Tier 1: full pH+TDS+temp controller
-├── gui/
-│   └── pi_tk_gui/              # Tier 2: Python/Tk/matplotlib GUI
-├── docs/
-│   ├── tiers.md
-│   ├── hardware_ph_only.md
-│   ├── hardware_full_controller.md
-│   ├── firmware_esp32.md
-│   └── pi_gui.md
-└── LICENSE
